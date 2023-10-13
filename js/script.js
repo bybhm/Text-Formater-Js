@@ -20,13 +20,13 @@ buttons.forEach((button) => {
           inputValue.slice(1).toLowerCase();
         break;
       case 'B':
-        outputElement.textContent = `<b>${inputValue}</b>`;
+        outputElement.innerHTML = `<b>${inputValue}</b>`;
         break;
       case 'I':
-        outputElement.textContent = `<i>${inputValue}</i>`;
+        outputElement.innerHTML = `<i>${inputValue}</i>`;
         break;
       case 'U':
-        outputElement.textContent = `<u>${inputValue}</u>`;
+        outputElement.innerHTML = `<u>${inputValue}</u>`;
         break;
       case 'copy':
         copyToClipboard(inputValue);
