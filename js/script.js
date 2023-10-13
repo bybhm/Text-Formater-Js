@@ -29,6 +29,7 @@ buttons.forEach((button) => {
         outputElement.innerHTML = `<u>${inputValue}</u>`;
         break;
       case 'copy':
+         outputElement.textContent = `copied`;
         copyToClipboard(inputValue);
         break;
     }
