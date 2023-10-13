@@ -30,6 +30,7 @@ buttons.forEach((button) => {
         break;
       case 'copy':
         copyToClipboard(inputValue);
+        outputElement.textContent = `copied`
         break;
     }
   });
