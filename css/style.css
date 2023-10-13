@@ -87,6 +87,7 @@ input {
   height: 50px;
   width: 88%;
   border-radius: 5px;
+  color:white;
   background: gray;
   display: flex;
   justify-content: center;
